@@ -1,5 +1,5 @@
 ---
-title: The Subfolder Page
+title: 6The Subfolder Page
 description: An example of a subfolder page.
 ---
 

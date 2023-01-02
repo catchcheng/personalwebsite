@@ -1,25 +1,45 @@
-- title: Documentation
-  url: docs
+- title: Projets
+  url: /docs
   links:
-    - title: "Getting Started"
+    - title: "Data Science"
       url: "docs/getting-started"
       children:
-        - title: Features
+        - title: Natural Language Processing
           url: "docs/getting-started#getting-started"
-        - title: Development
+        - title: Machine Learning
           url: "docs/getting-started#development"
-        - title: Customization
+        - title: Data Analysis
           url: "docs/getting-started#customization"
-    - title: Versioning
+        - title: Building a Personal Webisite
+          url: "docs/getting-started#customization"
+    - title: Business
       url: "docs/versioning"
-    - title: "About"
+      children:
+        - title: Stock Investment for Dummies
+          url: "docs/getting-started#getting-started"
+        - title: Ecommerce Website
+          url: "docs/getting-started#getting-started"
+    - title: "Language"
       url: "about"
-    - title: "News"
-      url: "news"
-- title: "Extras"
+      children:
+        - title: French Learning
+          url: "docs/getting-started#getting-started"
+        - title: Calligraphy
+          url: "docs/getting-started#getting-started"
+    - title: "Graphic Design"
+      url: "blogs"
+    - title: "Exercice"
+      url: "blogs"
+- title: "Blogs"
+  url: "docs/extras"
+- title: "Reviews"
   url: "docs/extras"
   links:
-    - title: Quizzes
-      url: "docs/extras/example-quiz"
-    - title: Tags Page
-      url: "tags"
+    - title: Film
+      url: "film-reviews"
+    - title: Book
+      url: "book-reviews"
+    - title: Game
+      url: "game-reviews"
+    - title: Play
+      url: "play-reviews"

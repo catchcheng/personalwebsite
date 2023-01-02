@@ -1,6 +1,7 @@
 ---
-title: A Nested Page
+title: 1.2.1A Nested Page
 description: An example of a nested page in a subfolder.
+# date: 2015-11-29
 ---
 
 # A Nested Page

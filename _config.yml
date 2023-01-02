@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Docsy Jekyll
+title: Catch Cheng
 email: your-email@domain.com
 author: Dinosaur Avocado
 description: > # this means to ignore newlines until "baseurl:"
@@ -29,9 +29,9 @@ baseurl: "/docsy-jekyll" # the subpath of your site, e.g. /blog
 url: "https://vsoch.github.io" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://github.com/vsoch/docsy-jekyll"
-github_user: "vsoch"
-github_repo: "docsy-jekyll"
+repo: "https://github.com/catchcheng/personalwebsite"
+github_user: "catchcheng"
+github_repo: "personalwebsite"
 github_branch: "master"
 
 # Optional
@@ -40,11 +40,12 @@ linkedin: vsochat
 dockerhub: vanessa
 
 # These options are used to configure the locations of your version history when you want to serve versioned documents
-version_params:
-  version_menu: "Release"
-  version_dir: Archive
-  tocversion_dir: versions
-  versioning: true
+# version_params:
+#   version_menu: "Release"
+#   version_dir: Archive
+#   tocversion_dir: versions
+#   versioning: false
+# the versioning functionality is disabled 
 
   # Disable so older versions cannot be searched
   allow_search: true  
@@ -55,7 +56,7 @@ version_params:
   latest: Current
   versions:
     - Current
-    - Previous
+    # - Previous
 
 # Should there be feedback buttons at the bottom of pages?
 feedback: true
@@ -92,6 +93,9 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path
+    # order:
+    #   - docsy-jekyll/docs/example-page.md
+    #   - docsy-jekyll/docs/getting-started.md
 
 # Defaults
 defaults:
