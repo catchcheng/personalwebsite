@@ -1,5 +1,5 @@
 ---
-title: 2.2Extras
+title: Machine Learning
 description: Extras, including quizzes.
 tags:
   - survey

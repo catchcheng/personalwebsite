@@ -1,5 +1,5 @@
 ---
-title: 2.1Quiz
+title: Natural Language Processing
 description: How to add interactive quizzes to your site.
 ---
 

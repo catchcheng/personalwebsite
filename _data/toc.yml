@@ -1,24 +1,24 @@
-- title: Projets
-  url: /docs
+- title: Projects
+  url: ""
   links:
     - title: "Data Science"
-      url: "docs/getting-started"
+      url: "docs/project-overview"
       children:
         - title: Natural Language Processing
-          url: "docs/getting-started#getting-started"
+          url: "docs/1Data-Science/1nlp"
         - title: Machine Learning
-          url: "docs/getting-started#development"
+          url: "docs/1Data-Science/2ml"
         - title: Data Analysis
-          url: "docs/getting-started#customization"
+          url: "docs/1Data-Science/3da"
         - title: Building a Personal Webisite
-          url: "docs/getting-started#customization"
+          url: "docs/1Data-Science/4web"
     - title: Business
-      url: "docs/versioning"
+      url: "docs/project-overview"
       children:
         - title: Stock Investment for Dummies
-          url: "docs/getting-started#getting-started"
+          url: "docs/2Business/1stock"
         - title: Ecommerce Website
-          url: "docs/getting-started#getting-started"
+          url: "docs/2Business/2ecommerce"
     - title: "Language"
       url: "about"
       children:
@@ -31,9 +31,9 @@
     - title: "Exercice"
       url: "blogs"
 - title: "Blogs"
-  url: "docs/extras"
+  url: "pages/blogs.md"
 - title: "Reviews"
-  url: "docs/extras"
+  url:
   links:
     - title: Film
       url: "film-reviews"

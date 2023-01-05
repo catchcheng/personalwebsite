@@ -1,10 +1,23 @@
 ---
-title: 5Getting Started
+title: Exercice Including Sports and Diets
 tags:
   - jekyll
   - github
-description: Getting started with Docsy Jekyll
+description: Catch's projects page
 ---
+
+# Project
+
+Welcome to the Catch's projects page! Here you can quickly jump to a particular category of my projects.
+
+<div class="section-index">
+    <hr class="panel-line">
+    {% for post in site.docs  %}     
+    <div class="entry">
+    <h5><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
+    <p>{{ post.description }}</p>
+    </div>{% endfor %}
+</div>
 
 # Getting Started
 

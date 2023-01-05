@@ -1,17 +1,19 @@
 ---
-title: Extras1.1.2
-description: Extras, including quizzes.
-tags:
-  - survey
+layout: page
+title: Projects
+permalink: /docs/
 ---
 
-# Extras
+# Projects
 
-Extras include other integrations that aren't relevant to style or customization,
-but can further enhance your documentation pages. Currently, we have support
-for adding interactive quizzes.
+Welcome to the Catch's projects page! Here you can quickly jump to a particular category of my projects.
 
-- [Quizzes](example-quiz)
-- [Tags]({{ site.baseurl }}/tags/)
-
-Would you like to see another question type, or another kind of extra? Please [open an issue]({{ site.repo }}/issues/new).
+<div class="section-index">
+    <hr class="panel-line">
+    {% for post in site.docs  %}        
+    <div class="entry">
+    <h5><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h5>
+    <p>{{ post.description }}</p>
+    </div>{% endfor %}
+    <!-- <h>test</h>here decides the "Document page", which is ordered by letter -->
+</div>

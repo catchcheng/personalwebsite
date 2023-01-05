@@ -1,5 +1,5 @@
 ---
-title: 3.1A Nested Page
+title: Ecommerce Website
 description: An example of a nested page in a subfolder.
 ---
 

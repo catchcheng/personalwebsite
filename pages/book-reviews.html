@@ -3,19 +3,59 @@ title: Book Reviews
 permalink: /book-reviews/
 ---
 
-<h1 id="tags-index">Tags Index</h1>
-{% capture site_tags %}{% for tag in site.tags %}{% if tag %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}{% endcapture %}{% assign docs_tags = "" %}{% for doc in site.docs %}{% assign ttags = doc.tags | join:',' | append:',' %}{% assign docs_tags = docs_tags | append:ttags %}{% endfor %}
-{% assign all_tags = site_tags | append:docs_tags %}{% assign tags_list = all_tags | split:',' | uniq | sort %}
+<h1>Book Reviews</h1>
 
-{% for tag in tags_list %}{% if tag %}<h3 id="{{ tag | replace: '/', '-' }}" class="linked-section">{{ tag }}</h3>
-<div class="post-list" style="margin-bottom:40px">
-    {% for post in site.tags[tag] %}<div class="tag-entry">
-    <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
-    <time style="font-style:italic; float:right" datetime="{{- post.date | date_to_xmlschema -}}"> {{- post.date | date: "%B %d, %Y" -}}</time>
-</div>{%- endfor -%}
-{% for doc in site.docs %}{% if doc.tags contains tag %}
-<div class="tag-entry">
-    <a href="{{- site.baseurl -}}{{- doc.url -}}">{{ doc.title }}</a>
-        <time style="font-style:italic; float:right" datetime="{{- doc.date | date_to_xmlschema -}}"> {{- doc.date | date: "%B %d, %Y" -}}</time>
-    </div>{% endif %}{% endfor %}
-</div>{% endif %}{%- endfor -%}
+<h2>Recent bookds read</h2>
+<ul id="services-list">
+    <li>
+        <img src="../assets/img/thedictatorshandbook.jpg" alt="Book cover image" />
+    </li>
+    <li>
+        <img src="../assets/img/delfb2.jpg" alt="Book cover image" />
+    </li>
+    <li>
+        <img src="../assets/img/dalf.jpg" alt="Book cover image" />
+    </li>
+    <li>
+        <img src="../assets/img/letranger.jpg" style="max-height: 170px;" alt="Book cover image" />
+    </li>
+    <li>
+        <img src="../assets/img/zweig.jpg" style="height: 170px;" alt="Book cover image" />
+    </li>
+    <li>
+        <img src="../assets/img/silkroad.jpg" alt="Book cover image" />
+    </li>
+</ul>
+
+<h2>Book reviews and quotes</h2>
+
+
+<style>
+    /*a little bit of reset*/
+#services-list, #services-list p, #services-list h3 {
+list-style: none;
+margin: 0; padding: 0;
+}
+
+#services-list > li{
+  float:left;
+  margin-right: 40px;
+  max-width: 120px;
+}
+
+#services-list > li > .image{
+  display:block;
+  float:left;
+  margin-right:10px;
+  
+}
+
+/*
+this instructions are to force the dimensions of image and its container <a>
+*/
+#services-list > li > .image,
+#services-list > li > .image > img{
+  height:24px;
+}
+
+</style>
