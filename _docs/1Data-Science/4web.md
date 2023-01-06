@@ -1,6 +1,15 @@
 ---
 title: Building a Personal Website
 description: Using a jekyll template to build a personal website, including blogs, projects, and reviews.
+badges:
+  - type: warning
+    tag: jekyll
+  - type: info
+    tag: html
+  - type: info
+    tag: css
+  - type: info
+    tag: javascript
 tags:
   - jekyll
   - html
@@ -31,6 +40,7 @@ bundle exec jekyll serve
 ```
 
 For more information, [here is the link](https://jekyllrb.com/) of Jekyll, to transform your plain text into static websites and blogs.
+<br>
 
 ## What kind of website can you build?
 
@@ -41,5 +51,7 @@ They can be found [here](https://jekyllthemes.io/free).
 ## What skills do you need?
 
 To create a website using a Jekyll template, you will need to be familiar with: Markdown, HTML, CSS, Git, and little Javascript.
-
-## Some take-home message.
+<br>
+<br>
+<br>
+<br>
